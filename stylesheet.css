@@ -1,8 +1,13 @@
 body{
-    background: black;
+    background: url(HTML/images/background.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: Arial
+}
+
+h1{
+    text-align: center;
 }
 
 #id_logo{
@@ -12,16 +17,17 @@ body{
 }
 
 table{
-    border: 39px solid black;
+    border: 39px solid transparent;
     width: 100%;
     text-align: center;
     border-collapse: separate;
-    border-spacing: 10px 20px;
+    border-spacing: 15px 20px;
 }
 
 th{
     font-weight: bold;
     font-size: 36px;
+    color: black;
 }
 
 td{
@@ -38,5 +44,9 @@ td{
 
 p{
     color: white;
-    font-family: Arial
+}
+
+h4{
+    color: black;
+    text-align: center;
 }
